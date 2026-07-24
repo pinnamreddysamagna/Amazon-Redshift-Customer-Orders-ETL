@@ -23,7 +23,7 @@ The pipeline loads customer and order data from CSV files stored in Amazon S3 in
 
 # Project Architecture
 
-```text
+
              customers_1000.csv
                orders_5000.csv
                      │
@@ -55,7 +55,6 @@ The pipeline loads customer and order data from CSV files stored in Amazon S3 in
                      │
                      ▼
       Business Analysis using SQL
-```
 
 ---
 
