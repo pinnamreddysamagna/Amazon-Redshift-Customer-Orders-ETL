@@ -19,7 +19,7 @@ The pipeline loads customer and order data from CSV files stored in Amazon S3 in
 
 ---
 
-# Project Architecture
+## Project Architecture
 
 
              customers_1000.csv
