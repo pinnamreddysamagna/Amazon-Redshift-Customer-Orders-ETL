@@ -164,6 +164,49 @@ Successfully built an end-to-end ETL pipeline in Amazon Redshift by:
 
 ---
 
-## Author
+# Learning Outcomes
+
+Through this project, the following concepts were implemented:
+
+- Amazon Redshift ETL Pipeline
+- Amazon S3 Integration
+- Redshift COPY Command
+- Bronze, Silver, and Gold Layer Architecture
+- Data Quality Validation
+- Duplicate Detection and Removal
+- NULL Value Handling
+- Data Cleansing using SQL
+- SQL Window Functions (`ROW_NUMBER`)
+- SQL Aggregate Functions (`COUNT`, `SUM`, `AVG`)
+- SQL Joins for Data Integration
+- Business Rule Implementation
+- Business Analytics using SQL
+- GitHub Version Control
+
+---
+
+# Future Enhancements
+
+The following improvements can be added in future versions of the project:
+
+- Automate the ETL pipeline using AWS Glue or Apache Airflow
+- Implement Incremental Data Loading (CDC)
+- Optimize Redshift tables using Distribution Styles and Sort Keys
+- Add Logging and Error Handling
+- Monitor ETL jobs using Amazon CloudWatch
+- Create interactive dashboards using Amazon QuickSight or Power BI
+- Schedule automated ETL jobs
+- Implement data auditing and validation before loading into Gold tables
+- Integrate with Databricks or AWS Lambda for advanced data processing
+- Enhance the pipeline with performance optimization techniques
+
+---
+
+# Author
 
 **Pinnamreddy Samagna**
+
+B.Tech – Information Technology
+
+Data Engineering | Amazon Redshift | SQL | AWS | GitHub
+
