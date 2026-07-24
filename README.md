@@ -21,19 +21,41 @@ The pipeline loads customer and order data from CSV files stored in Amazon S3 in
 
 ---
 
-## Project Architecture
+# Project Architecture
 
-CSV Files
-↓
-Amazon S3
-↓
-Amazon Redshift
-↓
-Bronze Layer (Staging)
-↓
-Silver Layer (Data Cleaning)
-↓
-Gold Layer (Business Reporting)
+```text
+             customers_1000.csv
+               orders_5000.csv
+                     │
+                     ▼
+                 Amazon S3
+                     │
+                     ▼
+          Redshift COPY Command
+                     │
+                     ▼
+      Bronze Layer (Staging Tables)
+      ├── stg_customers
+      └── stg_orders
+                     │
+                     ▼
+      Data Quality Checks
+      ├── Duplicate Check
+      ├── NULL Check
+      └── Negative Value Check
+                     │
+                     ▼
+      Silver Layer (Data Cleaning)
+      ├── customers_clean
+      └── orders_clean
+                     │
+                     ▼
+      Gold Layer (Reporting)
+      └── customer_orders
+                     │
+                     ▼
+      Business Analysis using SQL
+```
 
 ---
 
