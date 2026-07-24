@@ -2,8 +2,6 @@
 End-to-End ETL Pipeline using Amazon Redshift and Amazon S3
 
 
-# Amazon Redshift Customer Orders ETL Pipeline
-
 ## Project Overview
 
 This project demonstrates an end-to-end ETL pipeline using Amazon Redshift and Amazon S3.
