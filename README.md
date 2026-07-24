@@ -162,7 +162,7 @@ Successfully built an end-to-end ETL pipeline in Amazon Redshift by:
 
 ---
 
-# Learning Outcomes
+## Learning Outcomes
 
 Through this project, the following concepts were implemented:
 
@@ -183,7 +183,7 @@ Through this project, the following concepts were implemented:
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
 The following improvements can be added in future versions of the project:
 
@@ -200,7 +200,7 @@ The following improvements can be added in future versions of the project:
 
 ---
 
-# Author
+## Author
 
 **Pinnamreddy Samagna**
 
